@@ -95,10 +95,10 @@
 
 	另外，生成的 ss:// 链接，不支持插件参数导入，需要手动复制粘贴，使用 kcptun 插件时，该链接仅支持在手机上导入。
 ### SS-libev配置文件修改
-	`vim /etc/shadowsocks-libev/config.json;`
+	vim /etc/shadowsocks-libev/config.json;
 	
 	修改完后启用
-	`/etc/init.d/shadowsocks restart`
+	/etc/init.d/shadowsocks restart
 
 ## 客户端:
 ### 不同的客户端系统参考的各个release https://github.com/shadowsocks

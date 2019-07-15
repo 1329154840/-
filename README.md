@@ -1,5 +1,4 @@
-# 采用shadowsocks+obfs混淆的方式提供服务以下相关服务端命令按照Centos 7
-## 服务端:
+# 采用shadowsocks+obfs混淆的方式提供服务,系统环境CentOS 7
 ### git wget下载安装
 `yum install -y git wget vim`
 

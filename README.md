@@ -1,6 +1,5 @@
 # 采用shadowsocks+obfs混淆的方式提供服务
 # 以下相关服务端命令按照Centos 7
----
 ## 服务端:
 ### git wget下载安装
 `yum install -y git wget vim`
@@ -30,8 +29,9 @@
 
     其它插件可执行二进制文件目录：/usr/local/bin
  
-主菜单：
-Shadowsocks-libev一键管理脚本 [v1.0.0]
+### 主菜单：
+
+  Shadowsocks-libev一键管理脚本 [v1.0.0]
 
   1. BBR
   2. Install
@@ -41,7 +41,7 @@ Shadowsocks-libev一键管理脚本 [v1.0.0]
 
 请输入数字 [1-3]：
 
-可选插件与插件可选项：
+### 可选插件与插件可选项：
 1. v2ray
         1. ws+http
         2. ws+tls+[cdn]

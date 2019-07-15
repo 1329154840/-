@@ -1,19 +1,19 @@
-采用shadowsocks+obfs混淆的方式提供服务
-以下相关服务端命令按照Centos 7
+# 采用shadowsocks+obfs混淆的方式提供服务
+# 以下相关服务端命令按照Centos 7
+---
+## 服务端:
+### git wget下载安装
+`yum install -y git wget vim`
 
-服务端:
-git wget下载安装
-yum install -y git wget vim
+### ss-plugins.sh下载安装
+`wget -N --no-check-certificate -c -t3 -T60 -O ss-plugins.sh https://git.io/fjlbl`
+`chmod +x ss-plugins.sh`
+`./ss-plugins.sh`
 
-ss-plugins.sh下载安装
-wget -N --no-check-certificate -c -t3 -T60 -O ss-plugins.sh https://git.io/fjlbl
-chmod +x ss-plugins.sh
-./ss-plugins.sh
+### ss-plugins.sh用法
+`./ss-plugins.sh [install|uninstall|update|start|stop|restart|status|show|uid|link|scan|help] [new_uid|ss_link]`
 
-ss-plugins.sh用法
-./ss-plugins.sh [install|uninstall|update|start|stop|restart|status|show|uid|link|scan|help] [new_uid|ss_link]
-
-相关目录：
+### 相关目录：
 
     SS-libev安装目录：/usr/local/bin
     SS-libev配置文件：/etc/shadowsocks-libev/config.json
